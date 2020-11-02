@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <h1 class="cabecalho__titulo">Calcualdora simples</h1>
+    </header>
+    <main class="principal">
+        <div class="bodyCalculator">
+            <div class="display">
+                <input type="text" class="tela" id="display" readonly="readonly">
+            </div>
+            <div class="linha1">
+                <input type="button" class="reset key" value="C" id="reset">
+                <input type="button" class="delete key" value="Limpar" id="limpar">
+            </div>
+            <div class="linha2 geralLinhas">
+                <input type="button" class="key geralKeys" id="num1" value="1">
+                <input type="button" class="key geralKeys" id="num2" value="2">
+                <input type="button" class="key geralKeys" id="num3" value="3">
+                <input type="button" class="key geralKeys operadores" id="operadorAd" value="+">
+            </div>
+            <div class="linha3 geralLinhas">
+                <input type="button" class="key geralKeys" id="num4" value="4">
+                <input type="button" class="key geralKeys" id="num5" value="5">
+                <input type="button" class="key geralKeys" id="num6" value="6">
+                <input type="button" class="key geralKeys operadores" id="operadorSub" value="-">
+            </div>
+            <div class="linha4 geralLinhas">
+                <input type="button" class="key geralKeys" id="num7" value="7">
+                <input type="button" class="key geralKeys" id="num8" value="8">
+                <input type="button" class="key geralKeys" id="num9" value="9">
+                <input type="button" class="key geralKeys operadores" id="operadorMulti" value="*">
+            </div>
+            <div class="linha5 geralLinhas">
+                <input type="button" class="key geralKeys" id="virgula" value=",">
+                <input type="button" class="key geralKeys" id="num0" value="0">
+                <input type="button" class="key geralKeys" id="operadorIgual" value="=">
+                <input type="button" class="key geralKeys operadores" id="operadorDiv" value="/">
+            </div>
+        </div>
+            
+        <footer class="rodape">&copy;Murilo Rodrigues</footer>
+    </main>
+    
+    <script src="JS/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,103 @@
+.cabecalho{
+    align-items: center;
+    background-color: rgba(54, 54, 54, 0.575);
+    display: flex;
+    justify-content: center;
+    height: 75px;
+}
+
+.cabecalho__titulo{
+    color: rgb(3, 3, 3);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.principal{
+    background-color: whitesmoke;
+    height: calc(100vh - 115px);
+    padding: 50px 0;
+}
+
+.bodyCalculator{
+    background-color: rgba(12, 11, 12, 0.733);
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: inset -3px -3px .5em rgba(68, 67, 67, 0.657), 5px 5px 42px rgba(0, 0, 0, 0.63);
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    width: 250px;
+}
+
+.tela{
+    border: none;
+    border-radius: 2px;
+    box-shadow: inset -3px -3px .5em rgba(0, 0, 0, 0.308);
+    font-size: 25px;
+    height: 75px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    width: 250px;
+}
+
+.key{
+    border: none;
+    border-radius: 2px;
+    box-shadow: inset -3px -3px .5em rgba(0, 0, 0, 0.308);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.reset, .delete{
+    height: 30px;
+    width: 49%;
+}
+
+.reset{
+    background-color: rgb(10, 125, 233);
+}
+
+.delete{
+    background-color: rgb(226, 104, 23);
+}
+
+.linha1{
+    margin: 20px 0;
+}
+
+.geralLinhas:nth-child(n){  
+    margin: 5px 5px;
+}
+
+.geralKeys:first-child{
+    margin-left: 5px;
+}
+
+.geralKeys{
+    height: 55px;
+    width: 55px;
+}
+
+#operadorIgual{
+    background-color: rgb(184, 74, 74);
+}
+
+#virgula{
+    background-color: rgb(27, 161, 223);
+}
+
+.operadores{
+    background-color: rgb(52, 109, 69);
+}
+
+.rodape{
+    background-color: rgba(54, 54, 54, 0.575);
+    bottom: 0;
+    color: rgb(3, 3, 3);
+    font-size: 12px;
+    padding: 20px;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
